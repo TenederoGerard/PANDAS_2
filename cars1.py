@@ -3,7 +3,7 @@ import pandas as pd
 #Corresponding .csv file into a data frame named cars using pandas
 cars = pd.read_csv('cars.csv')
 
-#Display the first five  with odd-numbered columns.
+#Display the first five rows with odd-numbered columns.
 B= cars.iloc [:5, 0::2]
 
 #Display the row contains the ‘Model’ of Mazda RX4’
